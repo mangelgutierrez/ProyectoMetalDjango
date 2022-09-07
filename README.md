@@ -8,32 +8,29 @@
 ## How to run app 🚀
     - python manage.py run server
 
-## Navegation
-    - [x] Inicio
+## Navegation 📟
+    - [x] Inicio 🏠
 
-    - [x] Ingresantes
-        - [x] Buscar todos
-        - [x] Buscar por nombre
-        - [x] Agregar usuarios
+    - [x] Ingresantes 🧑‍🤝‍🧑
+        - [x] Buscar todos 🔍
+        - [x] Buscar por nombre 🔍
+        - [x] Agregar usuarios ➕
 
-    - [x] Graduados
-        - [x] Buscar todos
-        - [x] Buscar por nombre
-        - [x] Agregar usuarios
+    - [x] Graduados 🧑‍🎓
+        - [x] Buscar todos 🔍
+        - [x] Buscar por nombre 🔍
+        - [x] Agregar usuarios ➕
         
-    - [x] Bandas
-        - [x] Buscar todos
-        - [x] Buscar por nombre
-        - [x] Agregar usuarios
+    - [x] Bandas 🤘
+        - [x] Buscar todos 🔍
+        - [x] Buscar por nombre 🔍
+        - [x] Agregar usuarios ➕
 
-        - [x] #739
-        - [ ] https://github.com/octo-org/octo-repo/issues/740
-        - [ ] Add delight to the experience when all tasks are complete :tada:
 
 ## Autores ✒️
 
-* **Miguel Gutierrez** 
-* **Maximiliano Moreira** 
-* **Melissa Hernández** 
+* **Miguel Gutierrez** 🙍
+* **Maximiliano Moreira** 🙍‍♂️
+* **Melissa Hernández** 👩🏻‍🦰
 
 ⌨️ con ❤️
