@@ -6,7 +6,11 @@
 
 
 ## How to run app 🚀
-    - python manage.py run server
+     python manage.py run server
+
+## Server 🖥️
+     http://127.0.0.1:8000/appmetal/
+    
 
 ## Navegation 📟
     - [x] Inicio 🏠
