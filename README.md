@@ -9,23 +9,22 @@
     - python manage.py run server
 
 ## Navegation
-    - [ ] Inicio
-    - [x] #739
+    - [x] Inicio
 
-    - [ ] Ingresantes
-        - [ ] Buscar todos
-        - [ ] Buscar por nombre
-        - [ ] Agregar usuarios
+    - [x] Ingresantes
+        - [x] Buscar todos
+        - [x] Buscar por nombre
+        - [x] Agregar usuarios
 
-    - [ ] Graduados
-        - [ ] Buscar todos
-        - [ ] Buscar por nombre
-        - [ ] Agregar usuarios
+    - [x] Graduados
+        - [x] Buscar todos
+        - [x] Buscar por nombre
+        - [x] Agregar usuarios
         
-    - [ ] Bandas
-        - [ ] Buscar todos
-        - [ ] Buscar por nombre
-        - [ ] Agregar usuarios
+    - [x] Bandas
+        - [x] Buscar todos
+        - [x] Buscar por nombre
+        - [x] Agregar usuarios
 
 ## Autores ✒️
 
