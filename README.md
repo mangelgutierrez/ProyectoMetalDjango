@@ -10,6 +10,7 @@
 
 ## Navegation
     - [ ] Inicio
+    - [x] #739
 
     - [ ] Ingresantes
         - [ ] Buscar todos
