@@ -1,0 +1,40 @@
+{% extends "AppMetal/padre.html" %}
+
+{% load static %}
+
+{% block titulo %}
+
+<h1 class="text-white fs-3 fw-bolder">Resultado de Busqueda Banda</h1>
+<p class="text-white-50 mb-0">Escuela de Rock</p>
+
+{% endblock %}
+
+{% block otro_contenido %}
+<h3 class="mb-5">Resultados de Busqueda:</h3>
+
+{% if banda %}
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Comision</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for Banda in banda %}
+        <tr>
+            <th scope="row">{{ forloop.counter }}</th>
+            <td>{{ Banda.nombre}}</td>
+            <td>{{ Banda.comision }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% else %} 
+<p>No se encontro la Banda.</p>
+
+{% endif %}
+
+{% endblock %}

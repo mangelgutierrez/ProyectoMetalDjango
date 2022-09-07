@@ -1,0 +1,42 @@
+{% extends "AppMetal/padre.html" %}
+
+{% load static %}
+
+{% block titulo %}
+
+<h1 class="text-white fs-3 fw-bolder">Resultado de Busqueda Graduados</h1>
+<p class="text-white-50 mb-0">METAL ACADEMY - Escuela de Rock</p>
+
+{% endblock %}
+
+{% block otro_contenido %}
+<h3 class="mb-5">Busqueda de Graduados</h3>
+
+{% if graduado %}
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Instrumento</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for Graduado in graduado %}
+        <tr>
+            <th scope="row">{{ forloop.counter }}</th>
+            <td>{{ Graduado.nombre}}</td>
+            <td>{{ Graduado.apellido }}</td>
+            <td>{{ Graduado.instrumento }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% else %} 
+<p>No se encontro al Graduado.</p>
+
+{% endif %}
+
+{% endblock %}

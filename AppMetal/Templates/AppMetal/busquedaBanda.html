@@ -1,0 +1,27 @@
+{% extends "AppMetal/padre.html" %}
+
+{% load static %}
+
+{% block letrero%}Busqueda de Bandas{% endblock %}
+
+{% block titulo %}
+
+<h1 class="text-white fs-3 fw-bolder">BANDAS</h1>
+<p class="text-white-50 mb-0">Escuela de Rock</p>
+
+{% endblock %}
+
+{% block otro_contenido %}
+<h2> Busqueda de Banda </h2>
+<form action="{%  url 'busquedaBan'  %}" method="GET"> 
+
+    <input type="text" name="comision" id="comision"/>
+
+    <input type="submit" value="Buscar"/>
+
+</form>
+
+{{mensaje}}
+
+
+{% endblock %}

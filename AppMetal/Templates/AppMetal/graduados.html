@@ -1,0 +1,53 @@
+{% extends "AppMetal/padre.html" %}
+
+{% load static %}
+
+{% block titulo %}
+
+<h1 class="text-white fs-3 fw-bolder">GRADUADOS</h1>
+<p class="text-white-50 mb-0">METAL ACADEMY - Escuela de Rock</p>
+
+{% endblock %}
+
+{% block otro_contenido %}
+<h3 class="mb-5">Directorio de Graduados de la Academia:</h3>
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Toda la lista</h5>
+                <p class="card-text">Obtener el listado completo de todos los graduados de nuestra academia.</p>
+                <form action="{% url 'busquedaGra' %}" method="GET">
+                    <button type="submit" value="all" name="nombre" class="btn btn-secondary">Ver Todos</btn>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Búsqueda por Nombre</h5>
+                <p class="card-text">Revisar por nombre si una persona logró graduarse exitosamente de METAL ACADEMY:</p>
+                <form action="{%  url 'busquedaGra'  %}" method="GET">
+                    <input type="text" name="nombre" id="nombre" class="form-control mb-3" placeholder="Nombre Graduado:"/>
+                    {% if mensaje %}
+                    <p class="text-danger">Ingrese un nombre valido</p>
+                    {% endif %}
+                    <input type="submit" value="Buscar" class="btn btn-secondary"/>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row mt-5">
+    <div class="col text-center">
+        <div class="card col-8 mx-auto">
+            <div class="card-body">
+                <h5 class="card-title">Agregar Graduados</h5>
+                <p class="card-text">Acceda al formulario para agregar personas a la lista de Graduados:</p>
+                <a href="{% url 'graduadosFormulario' %}" class="btn btn-success">Agregar</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

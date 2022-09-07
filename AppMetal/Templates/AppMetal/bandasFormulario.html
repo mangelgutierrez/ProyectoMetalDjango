@@ -1,0 +1,20 @@
+{% extends "AppMetal/padre.html" %}
+
+{% load static %}
+
+{% block titulo %}
+
+<h1 class="text-white fs-3 fw-bolder">BANDAS</h1>
+<p class="text-white-50 mb-0">Escuela de Rock</p>
+
+{% endblock %}
+
+{% block otro_contenido %}
+<form action="{%  url 'bandasFormulario'  %}" method="POST"> {% csrf_token %}
+
+    <p>Nombre: <input type="text" name="Nombre"></p>
+    <p>Comision: <input type="number" name="Comision"></p>
+    <input type="submit" value="Enviar formulario"/>
+
+</form>
+{% endblock %}
