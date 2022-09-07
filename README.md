@@ -5,13 +5,13 @@
 ![version](https://img.shields.io/badge/last%20update-2022--09--07-967AA1)
 
 
-## How to run app
+## How to run app 🚀
     - python manage.py run server
 
 ## Navegation
-    [ ] Inicio
+    [] Inicio
 
-    [ ] Ingresantes
+    [] Ingresantes
         [ ] Buscar todos
         [ ] Buscar por nombre
         [ ] Agregar usuarios
@@ -25,4 +25,11 @@
         [ ] Buscar todos
         [ ] Buscar por nombre
         [ ] Agregar usuarios
-    
+
+## Autores ✒️
+
+* **Miguel Gutierrez** 
+* **Maximiliano Moreira** 
+* **Melissa Hernández** 
+
+⌨️ con ❤️
